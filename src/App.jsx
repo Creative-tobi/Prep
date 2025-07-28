@@ -2,7 +2,6 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import Card from './components/card'
 import Navbar from './components/Navbar'
 import About from './pages/About'
 import Contact from './pages/Contact'
