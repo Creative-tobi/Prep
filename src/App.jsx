@@ -13,7 +13,6 @@ function App() {
   return (
     <>
     <Navbar />
-    <Card/>
     <Home/>
     <About />
     <Contact/>
