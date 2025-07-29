@@ -30,16 +30,14 @@ const About = () => {
           }}
         />
 
-        <div className="part2">
+        <div className="part2 bg-[#00246d]">
           <h2
-            className="font-semibold text-[40px] text-white"
-            style={{ textShadow: "2px 2px 5px #003091" }}>
+            className="font-semibold text-[40px] text-white">
             Learn Smart. Earn Reward. Shine Brighter.
           </h2>
 
           <div
-            className="lg:flex text-white"
-            style={{ textShadow: "2px 2px 2px #00091ab7" }}>
+            className="lg:flex text-white">
             <div className="p-8">
               <h1 className="text-[60px] font-semibold" id="text">
                 1.

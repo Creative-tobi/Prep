@@ -1,4 +1,5 @@
 import React from 'react'
+import "/src/App.css";
 
 const Donate = () => {
   return (
@@ -13,11 +14,46 @@ const Donate = () => {
             one lesson, one student, one future at a time.
           </p>
 
-          <div className='lg:flex'>
-          
+          <div className="lg:flex gap-12" style={{ margin: "6px 40px" }}>
+            <div id="donatecard" className="bg-[#00246d]">
+              <h1 className="text-[32px] text-white font-semibold">
+                One-Time Donation
+              </h1>
+              <p className="text-white font-light">
+                Make a one-time contribution to support free lessons, platform
+                access, and data rewards for underserved students.
+              </p>
+              <button
+                className="text-[#00246d] bg-[#e6eaf4] font-normal p-2 rounded-lg"
+                style={{ margin: "6px 0" }}>
+                Donate Once
+              </button>
+            </div>
+
+            <div id="donatecard" className="bg-[#ff6600]">
+              <h1 className="text-[32px] text-white font-semibold">
+                Recurring Donation
+              </h1>
+              <p className="text-white font-light">
+                Become a Prep Champion by giving monthly. Help us reach more
+                learners and provide consistent, quality education.
+              </p>
+              <button
+                className="text-[#00246d] bg-[#e6eaf4] font-normal p-2 rounded-lg"
+                style={{ margin: "6px 0" }}>
+                Set Up Monthly Gift
+              </button>
+            </div>
           </div>
         </div>
       </section>
+      <hr
+        style={{
+          borderBottom: "1px thin #00091ab7",
+          marginBottom: "50px",
+          marginTop: "30px",
+        }}
+      />
     </>
   );
 }

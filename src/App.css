@@ -50,6 +50,11 @@ ul a{
   background-position: center;
 }
 
+#donatecard{
+  background-image: url('/public/style.png');
+  border-radius: 20px;
+  padding: 40px;
+}
 #text{
    color: transparent;
   -webkit-text-stroke: 1px white;
