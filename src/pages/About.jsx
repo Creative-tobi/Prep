@@ -23,6 +23,13 @@ const About = () => {
           </div>
         </div>
 
+        <hr
+          style={{
+            borderBottom: "1px thin #00091ab7",
+            marginBottom: "50px",
+          }}
+        />
+
         <div className="part2">
           <h2
             className="font-semibold text-[40px] text-white"
@@ -68,6 +75,13 @@ const About = () => {
           </div>
         </div>
 
+        <hr
+          style={{
+            borderBottom: "1px thin #00091ab7",
+            marginTop: "50px",
+          }}
+        />
+
         <div
           className="lg:flex gap-20"
           style={{ placeItems: "center", margin: "60px 30px" }}>
@@ -81,7 +95,7 @@ const About = () => {
               It's free, simple, and made just for you!
             </p>
 
-            <div className="lg:flex gap-4" style={{placeItems: "center"}}>
+            <div className="lg:flex gap-4" style={{ placeItems: "center" }}>
               <button
                 className="border-1 border-[#003091] px-3 py-2"
                 style={{
@@ -102,7 +116,97 @@ const About = () => {
             <img src="/herogirl.png" alt="" className="w-400" />
           </div>
         </div>
+        <hr
+          style={{
+            borderBottom: "1px thin #00091ab7",
+            marginBottom: "50px",
+          }}
+        />
+
+        <div className="" style={{ placeItems: "center" }}>
+          <h1 className="font-semibold text-[40px] text-[#1c1d21] sm:px-8 text-center">
+            Learning for Every Level. Success for Every Studednt
+          </h1>
+          <p className="text-[32px] font-thin text-[#3c3f47] text-center lg:px-50">
+            Our lessons are tailored to support students in Primary, Junior
+            Secondary, and Senior Secondary school - so everyone can learn at
+            their pace and thrive.{" "}
+          </p>
+
+          <div className="lg:flex gap-12 pt-6">
+            <div
+              className="border-1 border-[#b0bfdd] rounded-md p-2"
+              style={{ marginBottom: "32px" }}>
+              <div
+                className="bg-[#e6eaf4] rounded-md"
+                style={{ placeItems: "center", marginBottom: "16px" }}>
+                <img src="./read.png" alt="" />
+              </div>
+
+              <div className="p-4">
+                <h1 h1 className="font-normal text-[32px] text-[#1c1d21]">
+                  Primary
+                </h1>
+                <p className="text-[#3c3f47]">
+                  Fun and engaging lessons in Mathematics, English and Science-
+                  built to spark curiosity and give young learners a strong
+                  academic foundation.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="border-1 border-[#b0bfdd] rounded-md p-2"
+              style={{ marginBottom: "32px" }}>
+              <div
+                className="bg-[#e6eaf4] rounded-md"
+                style={{ placeItems: "center", marginBottom: "16px" }}>
+                <img src="./books.png" alt="" style={{ height: "256px" }} />
+              </div>
+
+              <div className="p-4">
+                <h1 h1 className="font-normal text-[32px] text-[#1c1d21]">
+                  Junior Secondary
+                </h1>
+                <p className="text-[#3c3f47]">
+                  Clear, relatable lessons in Maths, English, and Basic Science
+                  & Technology designed to help students build confidence and
+                  solve real-world problems with ease.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="border-1 border-[#b0bfdd] rounded-md p-2"
+              style={{ marginBottom: "32px" }}>
+              <div
+                className="bg-[#e6eaf4] rounded-md"
+                style={{ placeItems: "center", marginBottom: "16px" }}>
+                <img src="./schoolgirl.png" alt="" />
+              </div>
+
+              <div className="p-4">
+                <h1 h1 className="font-normal text-[32px] text-[#1c1d21]">
+                  Senior Secondary
+                </h1>
+                <p className="text-[#3c3f47]">
+                  Tackle complex topics with simplified, easy-to-follow lessons
+                  in Mathematics, English, Sciences, Arts, and Commercial
+                  subjects — all tailored for exam success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <hr
+        style={{
+          borderBottom: "1px thin #00091ab7",
+          marginBottom: "50px",
+          marginTop: "30px",
+        }}
+      />
     </>
   );
 };
