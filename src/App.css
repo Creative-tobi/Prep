@@ -9,6 +9,7 @@ body{
 nav{
   display: flex;
   place-items: center;
+  /* position: fixed; */
 }
 
 nav img{
@@ -39,12 +40,31 @@ ul a{
   font-weight: 400;
 }
 
-@media(max-width: 780px){
+.part2{
+  background-image: linear-gradient(to right, rgba(89, 144, 255, 0.7), rgba(0, 48, 145, 0.7)), url('/section.png');
+  background-blend-mode: overlay;
+  border-radius: 40px;
+  padding: 40px;
+  object-fit: cover;
+  place-items: center;
+  background-position: center;
+}
+
+#text{
+   color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+@media(max-width: 700px){
   #back{
     display: block;
     height: 880px;
     padding-top: 60px;
   }
+
+  /* .herogirl{
+    height: 580px;
+  } */
   ul{
     display: none;
   }
@@ -53,3 +73,6 @@ ul a{
     display: none;
   }
 }
+
+
+

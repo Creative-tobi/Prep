@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "/public/hero.png"
+import hero from "/hero.png"
 import "/src/App.css"
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
           </div>
 
           <div>
-            <img src="/public/girl.png" alt="" />
+            <img src="/girl.png" alt="" className="herogirl" />
           </div>
         </div>
       </section>
