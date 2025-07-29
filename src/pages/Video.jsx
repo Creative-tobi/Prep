@@ -1,5 +1,8 @@
 import React from 'react'
 import { IoIosPlayCircle } from "react-icons/io";
+import { MdFavoriteBorder } from "react-icons/md";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import "/src/App.css";
 
 
@@ -19,10 +22,17 @@ const Video = () => {
           <div className="lg:flex gap-12 pt-6">
             <div
               className="border-1 border-[#b0bfdd] rounded-md p-2"
-              style={{ marginBottom: "32px" }}>
+              style={{
+                marginBottom: "32px",
+                boxShadow: "0 4px 4px 0 #c9c9c9",
+              }}>
               <div
                 className="bg-[#e6eaf4] rounded-md"
                 style={{ placeItems: "center", marginBottom: "16px" }}>
+                <MdFavoriteBorder
+                  className="bg-white text-[20px] right-10 lg:left-100 rounded-full absolute"
+                  style={{ marginTop: "8px" }}
+                />
                 <img src="./teach.png" alt="" />
               </div>
 
@@ -39,11 +49,19 @@ const Video = () => {
 
             <div
               className="border-1 border-[#b0bfdd] rounded-md p-2"
-              style={{ marginBottom: "32px" }}
+              style={{ marginBottom: "32px", boxShadow: "0 4px 4px 0 #c9c9c9" }}
               id="image">
               <div
                 className="bg-[#e6eaf4] rounded-md"
-                style={{ placeItems: "center", marginBottom: "16px" }}>
+                style={{
+                  placeItems: "center",
+                  marginBottom: "16px",
+                  boxShadow: "0 4px 4px 0 #c9c9c9",
+                }}>
+                <MdFavoriteBorder
+                  className="bg-white text-[20px] right-112 rounded-full absolute"
+                  style={{ marginTop: "8px" }}
+                />
                 <img src="./chemical.png" alt="" />
               </div>
 
@@ -61,11 +79,15 @@ const Video = () => {
 
             <div
               className="border-1 border-[#b0bfdd] rounded-md p-2"
-              style={{ marginBottom: "32px" }}
+              style={{ marginBottom: "32px", boxShadow: "0 4px 4px 0 #c9c9c9" }}
               id="image">
               <div
                 className="bg-[#e6eaf4] rounded-md"
                 style={{ placeItems: "center", marginBottom: "16px" }}>
+                <MdFavoriteBorder
+                  className="bg-white text-[20px] right-10 rounded-full absolute"
+                  style={{ marginTop: "8px" }}
+                />
                 <img
                   src="./lab.png"
                   alt=""
@@ -85,8 +107,23 @@ const Video = () => {
               </div>
             </div>
           </div>
+
+          <div className="flex gap-[60px]" style={{marginBottom: "12px"}}>
+            <div className="rounded-full border-1 bg-[#bobfdd] text-[28px] border-gray-200 bg-gray-400 text-white">
+              <IoIosArrowBack />
+            </div>
+
+            <div className="rounded-full border-1 bg-[#bobfdd] text-[28px] border-gray-200 bg-gray-400 text-white">
+              <IoIosArrowForward />
+            </div>
+          </div>
         </div>
       </section>
+      <hr
+        style={{
+          borderBottom: "1px thin #00091ab7",
+        }}
+      />
     </>
   );
 }
