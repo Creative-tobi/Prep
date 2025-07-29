@@ -78,6 +78,10 @@ ul a{
   #but{
     display: none;
   }
+
+  #donatecard{
+    margin: 20px 0;
+  }
 }
 
 @media(max-width: 880px){
