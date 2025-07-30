@@ -4,13 +4,6 @@ import "/src/App.css"
 import Login from '../pages/Login';
 
 const Navbar = () => {
-  // const [login, setLogin] = useState(false);
-  // const [signup, setSignup] = useState(false);
-
-  // handleLogin = () =>{
-  //   setLogin(true);
-  //   window.alert(<Signup)
-  // }
   return (
     <>
       <nav>
@@ -42,7 +35,7 @@ const Navbar = () => {
           <button
             className="bg-[#003091] px-1 py-2"
             style={{ borderRadius: "0 12px 0 12px" }}>
-            <a href="#" className="text-white">
+            <a href="/Signup" className="text-white">
               Sign up
             </a>
           </button>
@@ -50,7 +43,7 @@ const Navbar = () => {
           <button
             className="bg-[#e6eaf4] px-1 py-2"
             style={{ borderRadius: "0 12px 0 12px" }}>
-            <a href="#" className="text-[#003091]">
+            <a href="/Login" className="text-[#003091]">
               Log in
             </a>
           </button>

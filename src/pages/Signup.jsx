@@ -77,6 +77,8 @@ const Signup = () => {
             style={{ width: "710px", height: "500px", objectFit: "cover", borderRadius: "50px 0 0 50px"  }}
           />
         </div>
+
+        
       </div>
     </>
   );
