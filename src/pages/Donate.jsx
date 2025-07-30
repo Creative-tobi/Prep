@@ -5,7 +5,7 @@ const Donate = () => {
   return (
     <>
       <section id="donate">
-        <div className="" style={{ placeItems: "center" }}>
+        <div className="" style={{ placeItems: "center", margin: "20px" }}>
           <h1 className="font-semibold text-[40px] text-[#1c1d21] sm:px-8 text-center">
             Support a Child's Learning Journey
           </h1>

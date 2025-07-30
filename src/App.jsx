@@ -15,6 +15,8 @@ function App() {
     <Video />
     <Donate />
     <Contact />
+
+    
     </>
   )
 }

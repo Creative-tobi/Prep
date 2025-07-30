@@ -7,7 +7,7 @@ const About = () => {
       <section id="about">
         <div
           className="lg:flex gap-40"
-          style={{ placeItems: "center", margin: "60px 30px" }}>
+          style={{ placeItems: "center", margin: "60px 50px" }}>
           <div className="">
             <p className="px-2 py-[12px] bg-[#ffe8d9] rounded-xl text-[#bf4d00] w-[100px]">
               About Prep
@@ -30,14 +30,12 @@ const About = () => {
           }}
         />
 
-        <div className="part2 bg-[#00246d]">
-          <h2
-            className="font-semibold text-[40px] text-white">
+        <div className="part2 bg-[#00246d]" style={{ margin: "20px" }}>
+          <h2 className="font-semibold text-[40px] text-white">
             Learn Smart. Earn Reward. Shine Brighter.
           </h2>
 
-          <div
-            className="lg:flex text-white">
+          <div className="lg:flex text-white">
             <div className="p-8">
               <h1 className="text-[60px] font-semibold" id="text">
                 1.
@@ -82,7 +80,7 @@ const About = () => {
 
         <div
           className="lg:flex gap-20"
-          style={{ placeItems: "center", margin: "60px 30px" }}>
+          style={{ placeItems: "center", margin: "60px 50px" }}>
           <div>
             <h1 className="font-semibold text-[40px] text-[#1c1d21]">
               Ready to Stat Learning and Earning?
@@ -121,7 +119,7 @@ const About = () => {
           }}
         />
 
-        <div className="" style={{ placeItems: "center" }}>
+        <div className="" style={{ placeItems: "center", margin: "20px" }}>
           <h1 className="font-semibold text-[40px] text-[#1c1d21] sm:px-8 text-center">
             Learning for Every Level. Success for Every Studednt
           </h1>

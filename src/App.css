@@ -2,9 +2,9 @@
   margin: 0;
   padding: auto;
 }
-body{
-  margin: 20px;
-}
+/* body{
+  margin: 20px 20px 0 20px;
+} */
 
 nav{
   display: flex;
@@ -14,6 +14,7 @@ nav{
 
 nav img{
   width: 82px;
+  margin: 20px;
   /* height: 74px; */
 }
 
@@ -25,7 +26,7 @@ nav img{
   background-repeat: no-repeat;
   border-radius: 40px;
   object-fit: fill;
-  margin: 20px 0;
+  margin: 20px;
   place-items: center;
 }
 ul{

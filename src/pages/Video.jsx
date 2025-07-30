@@ -10,7 +10,7 @@ const Video = () => {
   return (
     <>
       <section id="video">
-        <div className="" style={{ placeItems: "center" }}>
+        <div className="" style={{ placeItems: "center", margin: "20px" }}>
           <h1 className="font-semibold text-[40px] text-[#1c1d21] sm:px-8 text-center">
             Explorer Our Rich Video Library
           </h1>
