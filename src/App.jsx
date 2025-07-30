@@ -1,24 +1,22 @@
-import Navbar from './components/Navbar'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Donate from './pages/Donate'
-import Home from './pages/Home'
-import Video from './pages/Video'
+import LandingPage from './components/LandingPage'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Signup from './pages/Signup';
+import Login from './pages/Login';
 
 function App() {
 
   return (
     <>
-    <Navbar />
-    <Home/>
-    <About />
-    <Video />
-    <Donate />
-    <Contact />
-
-    
+      <LandingPage />
+      <Signup />
+      <Login />
+      {/* <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LandingPage/>}></Route>
+    </Routes>
+    </BrowserRouter> */}
     </>
-  )
+  );
 }
 
 export default App

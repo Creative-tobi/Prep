@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '/public/logo.png'
 import "/src/App.css"
+import Login from '../pages/Login';
 
 const Navbar = () => {
+  // const [login, setLogin] = useState(false);
+  // const [signup, setSignup] = useState(false);
+
+  // handleLogin = () =>{
+  //   setLogin(true);
+  //   window.alert(<Signup)
+  // }
   return (
     <>
       <nav>
@@ -30,7 +38,7 @@ const Navbar = () => {
             <a href="#donate">Donate</a>
           </li>
         </ul>
-        <div className="flex gap-2" id='but'>
+        <div className="flex gap-2" id="but">
           <button
             className="bg-[#003091] px-1 py-2"
             style={{ borderRadius: "0 12px 0 12px" }}>
