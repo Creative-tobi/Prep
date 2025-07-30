@@ -13,7 +13,7 @@ const Contact = () => {
       <section id="contact">
         <div
           className="lg:flex bg-[#d9e0ef] justify-between"
-          style={{ padding: "20px 60px 0 60px" }}>
+          style={{ padding: "20px 0 0 60px" }}>
           <div>
             <div>
               <img src="/logo.png" alt="" />
@@ -25,11 +25,11 @@ const Contact = () => {
           </div>
 
           <div
-            className="flex gap-12 p-6"
+            className="lg:flex gap-12 p-12"
             style={{
-              borderTop: "2px solid #00246d",
-              borderLeft: "2px solid #00246d",
-              borderRadius: "20px 0 0 0",
+              borderTop: "1px solid #00246d",
+              borderLeft: "1px solid #00246d",
+              borderRadius: "128px 0 0 0",
             }}>
             <div>
               <p className='text-[#00246d] font-semibold pb-2'>CONTACTS</p>

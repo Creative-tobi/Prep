@@ -50,7 +50,6 @@ const Donate = () => {
       <hr
         style={{
           borderBottom: "1px thin #00091ab7",
-          marginBottom: "50px",
           marginTop: "30px",
         }}
       />
